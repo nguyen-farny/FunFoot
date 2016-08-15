@@ -1,0 +1,7 @@
+AuthUserFile /kunden/homepages/2/d598912213/htdocs/funfoot-content/frontend/backoffice/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Restricted Access"
+AuthType Basic
+<limit GET>
+require valid-user
+</Limit> 

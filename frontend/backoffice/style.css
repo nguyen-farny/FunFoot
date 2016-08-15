@@ -1,0 +1,79 @@
+a {
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+	background-color: #CFCFFF;
+	margin-bottom: 5px;
+}
+
+nav a {
+	width: 200px;
+	display: inline-block;
+	color: black;
+}
+
+nav a:hover {
+	background-color: #EFEFFF;
+}
+
+.current {
+	background-color: #EFFFFF;
+}
+
+table {
+	width: 90%;
+	margin: auto;
+}
+
+thead td {
+	background-color: #EFEFFF;
+}
+
+tbody td {
+	background-color: #FCFCFF;
+}
+
+tbody tr:hover td {
+	background-color: #F5F5FF;
+}
+
+td .remove, td .edit {
+	display: block;
+}
+
+td .edit:hover {
+	background-color: #F5FFF5;
+}
+
+td .remove:hover {
+	background-color: #FFF5F5;
+}
+
+form {
+	width: 90%;
+	margin: auto;
+	background-color: #FCFCFF;
+}
+
+input {
+	margin: 5px;
+	width: 400px;
+}
+
+textarea {
+	margin: 5px auto;
+	width: 100%;
+	height: 400px;
+}
+
+label {
+	margin: 5px;
+	width: 200px;
+	display: inline-block;
+}
+
+button {
+	margin: 5px;
+}
